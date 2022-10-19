@@ -9,6 +9,7 @@ for row in csv_f:
 f.close()
 
 print (data[1:])
+print(row)
 
 def convert_row(row):
     return """<Students>
