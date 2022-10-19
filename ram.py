@@ -10,6 +10,7 @@ f.close()
 
 print (data[1:])
 print(row)
+print(csv_f)
 
 def convert_row(row):
     return """<Students>
